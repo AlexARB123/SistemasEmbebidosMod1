@@ -1,3 +1,7 @@
+/*
+  @author Alejandro Rodriguez del Bosque - A01722329
+  @brief Implementation and initial run of the mergesort algorithm
+*/
 // g++ mergesort.cpp -o main.exe
 // main.exe
 #include <iostream>
