@@ -78,7 +78,8 @@ void merge(int start, int half, int end){
     Complexity O(n log(n))
     El ciclo se va a ejecutar log(n) veces debido a dividir el problema en dos. Sin embargo al hacer esta operacion
     se encuentra con una funcion que se ejecuta en tiempo O(n). Multiplicando ambos da la complejidad de tiempo de 
-    O(n log(n))
+    O(n log(n)). Se convierte en esto debido a que la misma cantidad de separaciones que haga va a ser la misma cantidad de 
+    uniones que esta haciendo.
 */
 void mergeSort(int start, int end){
   int half;
